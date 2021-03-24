@@ -178,7 +178,7 @@ Looks like this returns a list with two `a` tags. Looking at the first one, it l
 ```Python
 example.select('a')[1]['title']
 ```
-The output is `A Light in the Attic`. That's great, our code is working! Not only that, but this is a fantastic book, which you should definitely check out if you haven't already.
+The output is `A Light in the Attic`. That's great, our code is working! Not only that, but this is a fantastic book, which you should [definitely check out](https://en.wikipedia.org/wiki/A_Light_in_the_Attic) if you haven't already.
 
 ## Building Our Scraper
 
