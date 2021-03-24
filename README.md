@@ -138,7 +138,7 @@ Let's begin by trying to answer the question, is this a 5 star rating or not? We
 ```
 Running this code will return a boolean value. For me, this was `False`.
 
-This would be one way of building out code... but this method might not be the best. Instead, let's use the beautiful soup select method. If we manually inspect our output for `example`, we see that it contains a class for a three star rating. We could try and select this, replacing the space between the words `rating` and `Three` with a dot. This is just a a requirement of this method. We should see a class return.
+This would be one way of building out code... but this method might not be the best. Instead, let's use the [beautiful soup select method](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#css-selectors). If we manually inspect our output for `example`, we see that it contains a class for a three star rating. We could try and select this, replacing the space between the words `rating` and `Three` with a dot. This is just a a requirement of this method. We should see a class return.
 
 ```Python
 example.select(".star-rating.Three")
